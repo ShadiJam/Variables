@@ -1,0 +1,6 @@
+C:\Users\shadijam\Code\Variables\Variables\bin\Debug\Variables.exe.config
+C:\Users\shadijam\Code\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
+C:\Users\shadijam\Code\Variables\Variables\bin\Debug\Variables.exe
+C:\Users\shadijam\Code\Variables\Variables\bin\Debug\Variables.pdb
+C:\Users\shadijam\Code\Variables\Variables\obj\Debug\Variables.exe
+C:\Users\shadijam\Code\Variables\Variables\obj\Debug\Variables.pdb
