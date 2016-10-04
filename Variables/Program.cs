@@ -16,15 +16,14 @@ namespace Variables
             string todayDate = "10/03/16";
             float cost = 5.45f;
             char letter = 'X';
-            string input = Console.ReadLine();
-
-
+            string[] shadiFaveBooks = { "Dune", "Oryx and Crake", "The Foundation", "Zen and the Art of Motorcycle Maintenance" };
+            var f = new { born = "Tehran", love = "travel", hair = "big", age = "34" };
+            var m = new { comedy = "The Big Lebowski", adventure = "The Princess Bride", visual = "The Revenant" };
             Console.WriteLine(greeting);
-            Console.WriteLine("Columbus Sailed the world in " + year);            
+            Console.WriteLine("Columbus Sailed the world in " + year);
             Console.WriteLine("You have a dog at home. True or False?");
-            Console.ReadLine();
-            if(ifDogHome)
-            {
+            Console.WriteLine(ifDogHome);
+            if (ifDogHome) {
                 Console.WriteLine("It is true that you have a dog at home.");
             } else
             {
@@ -33,6 +32,9 @@ namespace Variables
             Console.WriteLine("Today is " + todayDate);
             Console.WriteLine("I spent " + "$" + cost + " on a cheeseburger.");
             Console.WriteLine(letter + " marks the Spot");
+            Console.WriteLine("Some of Shadi's favorite books are " + shadiFaveBooks[0] + ", "+ shadiFaveBooks[1] + ", " + shadiFaveBooks[2] + ", and " + shadiFaveBooks[3] + ".");
+            Console.WriteLine("Shadi was born in " + f.born +". She loves to " + f.love + ". Her hair is " + f.hair + " and she is " + f.age + " years old.");
+            Console.WriteLine("Shadi's favorite comedy film is " + m.comedy + ". Her favorite adventure film is " + m.adventure + " and her favorite film, visually, is " + m.visual + ".");
             Console.ReadLine();
         }
             
