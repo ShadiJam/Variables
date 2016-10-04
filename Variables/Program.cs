@@ -27,7 +27,7 @@ namespace Variables
                 Console.WriteLine("It is true that you have a dog at home.");
             } else
             {
-                Console.WriteLine("You are missing out!");
+                Console.WriteLine(!ifDogHome);
             }
             Console.WriteLine("Today is " + todayDate);
             Console.WriteLine("I spent " + "$" + cost + " on a cheeseburger.");
